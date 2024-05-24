@@ -44,11 +44,6 @@ class TIK_Preferences(AddonPreferences):
 
 
 classes = ( TIK_Preferences,
-            OBJECT_OT_BasemeshTempleReMeshNative,
-            OBJECT_OT_SkelloMesh,
-            SCULPT_OT_MaskSplit,
-            SCULPT_OT_Vert2Mask,
-            SCULPT_OT_Mask2Vert,
 
         )
 

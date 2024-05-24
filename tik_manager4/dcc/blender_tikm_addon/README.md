@@ -1,0 +1,1 @@
+This add-on is the complimentary Blender add-on for Tik Manager 4.
