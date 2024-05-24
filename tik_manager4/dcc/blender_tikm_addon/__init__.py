@@ -52,7 +52,7 @@ class TIK_Preferences(AddonPreferences):
         layout = self.layout
         layout.label(text="Path to Tik Manager Installation")
         layout.prop(self, "tikm_path", text="Tik Manager installation path")
-        layout.label(text="Set the folder where MeshlabServer.exe for mesh processing")
+        layout.label(text="QT Framework path")
         layout.prop(self, "qt_path", text="QT Folder")
 
 
