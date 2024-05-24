@@ -11,12 +11,32 @@ bl_info = {
 }
 
 
+import sys
+from pathlib import Path
+
+
 import bpy
 import bmesh
 import bpy.types
 from bpy.props import (BoolProperty, EnumProperty, FloatProperty, 
                        IntProperty, PointerProperty, StringProperty)
 from bpy.types import AddonPreferences, Object, Scene, WindowManager
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 class TIK_Preferences(AddonPreferences):
@@ -43,8 +63,8 @@ class TIK_Preferences(AddonPreferences):
 
 
 
-classes = ( TIK_Preferences,
-
+classes = ( 
+           TIK_Preferences,
         )
 
 
@@ -64,7 +84,3 @@ def unregister():
 
 if __name__ == "__main__":
     register()
-
-    # The menu can also be called from scripts
-    #bpy.ops.wm.call_menu(name=FILE_MT_BasemeshT
-
